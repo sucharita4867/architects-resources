@@ -36,6 +36,11 @@
       background: rgb(255, 144, 14);
 }
 
+.main-center {
+      width: 80%;
+      margin: 0 auto;
+}
+
 /* header style */
 
 /* nav style */
@@ -80,6 +85,11 @@
 
 .banner-img {
       width: 100%;
+}
+
+/* our fetures section style */
+.teams {
+      align-items: center;
 }
 
 @media screen and (max-width: 576px) {
