@@ -71,6 +71,10 @@
 }
 
 /* banner style */
+.hide {
+      display: none;
+}
+
 .banner-content {
       max-width: 850px;
       margin: 0 auto;
@@ -84,14 +88,20 @@
 }
 
 .banner-img {
-      text-align: center;
-      width: 80%;
-      margin: 0px auto;
+      /* text-align: center; */
+      width: 100%;
+      /* margin: 0px auto; */
 }
 
 /* our fetures section style */
 .teams {
       align-items: center;
+      justify-content: center;
+}
+
+.team-image-container {
+      display: grid;
+      grid-template-columns: repeat(2);
 }
 
 @media screen and (max-width: 576px) {
