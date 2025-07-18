@@ -84,7 +84,9 @@
 }
 
 .banner-img {
-      width: 100%;
+      text-align: center;
+      width: 80%;
+      margin: 0px auto;
 }
 
 /* our fetures section style */
